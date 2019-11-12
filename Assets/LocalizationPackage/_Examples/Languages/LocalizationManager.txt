@@ -1,0 +1,9 @@
+Location_Manager_Main_System
+T_Welcome=
+TAlley=
+TStoreFront=
+TPanda=
+TRoofChill=
+T_Credits=
+T_Help=
+T_Next=
