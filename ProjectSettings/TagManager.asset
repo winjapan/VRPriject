@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - River
+  - TAZOFX
+  - Bridge
+  - Enemy
+  - Poogyee
+  - NeedleAttack
+  - RPunch
+  - LPunch
+  - Kick
+  - Attack
+  - PowerItem
+  - RepairItem
+  - InvincibleItem
+  - Beach
+  - Fire
+  - Plane
+  - Terran
+  - RetuneButton
+  - SettingImage
+  - SettingButton
+  - EnemyBodyBlow
+  - Invincible
+  - FxTemporaire
+  - IVCSword
+  - troll
+  - mace
+  - Tornado
+  - DUpper
+  - tigerTrap
+  - Bullet
+  - Saw
+  - CowKickR
+  - CowKickL
+  - CowRPunch
+  - CowLPunch
+  - laser
+  - BomExploded
+  - Gob
+  - GobRAttack
+  - GobLAttack
+  - teleporter
+  - docks
+  - Axe
+  - Sword
+  - Staircase
+  - Point
+  - NeedleBall
+  - FallFire
+  - ThunderBall
+  - ExplosionFlare
+  - Darkness
+  - Water
+  - PenartySelling
+  - TimeOut
+  - GobR2
+  - GobL2
+  - Lava
+  - HeartItem
+  - Ally
+  - AllySword
+  - AllyPoint
+  - LastBoss
+  - Clear
+  - Angry
+  - BGM
+  - SE
+  - LKick
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - FallDown
+  - Kick
+  - PlayerJump
+  - Player
+  - RightPunch
+  - Poogyee
+  - PoogyeeDamage
+  - LeftPunch
+  - PlayerDamage
+  - PoogyeeAttack
+  - PlayerInvincible
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
