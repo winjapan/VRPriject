@@ -7,10 +7,11 @@ public class AngryUnityChan : MonoBehaviour
     public float angryTime;
     private Collider agCol;
     public AudioSource playerAudio;
+    bool isSound;
     // Start is called before the first frame update
     void Start()
     {
-        angryTime = 5;
+        angryTime = 2;
        
     }
 
@@ -24,24 +25,16 @@ public class AngryUnityChan : MonoBehaviour
         }
         angryTime -= Time.deltaTime;
 
-        if (angryTime < 4)
-        {
-            playerAudio.enabled = true;
-        }
-
-        if (angryTime < 3.5)
-        {
-            playerAudio.enabled = false;
-        }
-
         if (angryTime < 2)
         {
             playerAudio.enabled = true;
+            isSound = true;
         }
 
-        if (angryTime < 1.5)
+        if (angryTime < 1)
         {
             playerAudio.enabled = false;
+            isSound = false;
         }
 
         if (angryTime <0)

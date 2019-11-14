@@ -88,7 +88,7 @@ public class PlayerHP : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         // FadeImage = GameObject.Find("FadeImage").GetComponent<Image>();
         // FadeImage.color = Color.clear;
-        countTime = 400;
+        countTime = 300;
 
 
     }

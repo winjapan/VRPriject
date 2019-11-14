@@ -6847,6 +6847,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: ma1
       objectReference: {fileID: 0}
+    - target: {fileID: 3791097931231329671, guid: be3ee01e85a6c438badc11efa42b81bd,
+        type: 3}
+      propertyPath: smoothingFactor
+      value: 5.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791097931231329671, guid: be3ee01e85a6c438badc11efa42b81bd,
+        type: 3}
+      propertyPath: maxAngularSpeed
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2316912943335189366, guid: be3ee01e85a6c438badc11efa42b81bd,
+        type: 3}
+      propertyPath: powerUp
+      value: 
+      objectReference: {fileID: 564179401}
     - target: {fileID: 2316912943335189368, guid: be3ee01e85a6c438badc11efa42b81bd,
         type: 3}
       propertyPath: RevPoint1
@@ -6879,7 +6894,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1413759815
 Transform:
   m_ObjectHideFlags: 0

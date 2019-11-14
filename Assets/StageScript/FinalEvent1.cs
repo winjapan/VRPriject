@@ -25,6 +25,7 @@ public class FinalEvent1 : MonoBehaviour
     public GameObject Player1;
     public GameObject EventPlayer1;
     public GameObject Player2;
+   
 
     // Start is called before the first frame update
     void Awake()
@@ -151,6 +152,7 @@ public class FinalEvent1 : MonoBehaviour
         GameObject.Find("Lady Pirate Ally").GetComponent<LPPointMove>().enabled = true;
         GameObject.Find("Fanny2BGM").GetComponent<AudioSource>().enabled = false;
         GameObject.Find("LastBGM").GetComponent<AudioSource>().enabled = true;
+       
         this.enabled = false;
     }
 }

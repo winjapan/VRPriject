@@ -1131,7 +1131,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u3078\u30FC\n\u307E\u3055\u304B\u9B54\u738B\u304C\n\u76F8\u68D2\u3092\u3055\u3089\u3046\u306A\u3093\u3066\u306D\u3048"
+  m_Text: "\u3078\u30FC\n\u307E\u3055\u304B\u9B54\u738B\u304C\n\u7FA9\u59B9\u3061\u3083\u3093\u3092\u3055\u3089\u3046\u306A\u3093\u3066\u306D\u3048"
 --- !u!222 &179300357
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1831,8 +1831,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u203B\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093\u306E\u6012\u308A\u306E\u52B9\u679C
-    -1HP"
+  m_Text: "\u203B\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093\u306E\u6012\u308A\u306E\u52B9\u679C\uFF08\u52B9\u679C\u97F3\u306E\u307F\uFF09"
 --- !u!222 &296144854
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3267,7 +3266,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5E2B\u59B9\u3092\u6551\u3046\u624B\u4F1D\u3044\u3092\u3057\u3066\u304F\u308C\u305F\n\u305D\u308C\u3060\u3051\u306F\u5FD8\u308C\u306A\u3044\n\u2026\u3042\u308A\u304C\u3068\u3046"
+  m_Text: "\u7FA9\u59B9\u3092\u6551\u3046\u624B\u4F1D\u3044\u3092\u3057\u3066\u304F\u308C\u305F\n\u305D\u308C\u3060\u3051\u306F\u5FD8\u308C\u306A\u3044\n\u2026\u3042\u308A\u304C\u3068\u3046"
 --- !u!222 &504997241
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3298,7 +3297,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &514249474
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4050,8 +4049,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 1
-  m_Color: {r: 1, g: 0.2216981, b: 0.2216981, a: 1}
-  m_Intensity: 0.7
+  m_Color: {r: 1, g: 0.6273585, b: 0.6273585, a: 1}
+  m_Intensity: 1
   m_Range: 500
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -4163,7 +4162,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u3042\u305F\u3057\u306F\u3053\u3053\u307E\u3067\u3060\u306D\n\u518D\u958B\u3092\u90AA\u9B54\u3057\u3061\u3083\u60AA\u3044\u304B\u3089\n\u3053\u3053\u3067\u304A\u3044\u3068\u307E\u3059\u308B\u3088"
+  m_Text: "\u3042\u305F\u3057\u306F\u3053\u3053\u307E\u3067\u3060\u306D\n\u518D\u4F1A\u3092\u90AA\u9B54\u3057\u3061\u3083\u60AA\u3044\u304B\u3089\n\u3053\u3053\u3067\u304A\u3044\u3068\u307E\u3059\u308B\u3088"
 --- !u!222 &665800208
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5701,7 +5700,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5E2B\u59B9\u304C\uFF01\uFF1F\n\u6848\u5185\u3057\u3066\u304F\u308C\uFF01"
+  m_Text: "\u7FA9\u59B9\u304C\uFF01\uFF1F\n\u6848\u5185\u3057\u3066\u304F\u308C\uFF01"
 --- !u!222 &866588749
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10277,6 +10276,7 @@ MonoBehaviour:
   Player3: {fileID: 1522808452}
   EventPlayer4: {fileID: 2010901296}
   Player5: {fileID: 557852701}
+  ive: {fileID: 1431056761}
 --- !u!114 &1582265566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10304,6 +10304,7 @@ MonoBehaviour:
   Player4: {fileID: 1442202629}
   EventPlayer3: {fileID: 1716546357}
   Player3: {fileID: 1522808452}
+  Playeraudio: {fileID: 2015799873}
 --- !u!1 &1604188212
 GameObject:
   m_ObjectHideFlags: 0
@@ -12862,7 +12863,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u76F8\u68D2\u3092\u52A9\u3051\u306B\u6765\u305F\u3093\u3060\uFF01\n\u305D\u308C\u4EE5\u5916\u4F55\u304C\u3042\u308B\uFF01\uFF1F"
+  m_Text: "\u7FA9\u59B9\u3092\u52A9\u3051\u306B\u6765\u305F\u3093\u3060\uFF01\n\u305D\u308C\u4EE5\u5916\u4F55\u304C\u3042\u308B\uFF01\uFF1F"
 --- !u!222 &1876798960
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12934,17 +12935,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerVRController
       objectReference: {fileID: 0}
-    - target: {fileID: 4799224019593883535, guid: 53e892922d711403a83ab974bfff970f,
+    - target: {fileID: 4799224019593883533, guid: 53e892922d711403a83ab974bfff970f,
         type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 21e9745cf48e74e1eab9f3f90a3b882a, type: 3}
-    - target: {fileID: 4799224019593883535, guid: 53e892922d711403a83ab974bfff970f,
-        type: 3}
-      propertyPath: OutputAudioMixerGroup
-      value: 
-      objectReference: {fileID: 243089322867064750, guid: ca71259be6348485abbe393157796cb8,
-        type: 2}
+      propertyPath: m_TargetEye
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6206629702284975947, guid: 53e892922d711403a83ab974bfff970f,
         type: 3}
       propertyPath: m_IsActive
@@ -12954,11 +12949,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlayerVR Im3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4799224019593883533, guid: 53e892922d711403a83ab974bfff970f,
-        type: 3}
-      propertyPath: m_TargetEye
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8504744065300173585, guid: 53e892922d711403a83ab974bfff970f,
         type: 3}
@@ -13035,6 +13025,17 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4799224019593883535, guid: 53e892922d711403a83ab974bfff970f,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 21e9745cf48e74e1eab9f3f90a3b882a, type: 3}
+    - target: {fileID: 4799224019593883535, guid: 53e892922d711403a83ab974bfff970f,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 243089322867064750, guid: ca71259be6348485abbe393157796cb8,
+        type: 2}
     - target: {fileID: 6206452459763225383, guid: 53e892922d711403a83ab974bfff970f,
         type: 3}
       propertyPath: OutputAudioMixerGroup
@@ -13111,26 +13112,6 @@ PrefabInstance:
       propertyPath: NonePlayer
       value: 
       objectReference: {fileID: 1739497332}
-    - target: {fileID: 8438625232422918614, guid: 53e892922d711403a83ab974bfff970f,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8438625232422918614, guid: 53e892922d711403a83ab974bfff970f,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8438625232422918614, guid: 53e892922d711403a83ab974bfff970f,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9143196549134591880, guid: 53e892922d711403a83ab974bfff970f,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6210725189373849733, guid: 53e892922d711403a83ab974bfff970f,
         type: 3}
       propertyPath: m_RootOrder
@@ -13156,15 +13137,40 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4799224020969412777, guid: 53e892922d711403a83ab974bfff970f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206452461340343531, guid: 53e892922d711403a83ab974bfff970f,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8438625232422918614, guid: 53e892922d711403a83ab974bfff970f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8438625232422918614, guid: 53e892922d711403a83ab974bfff970f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8438625232422918614, guid: 53e892922d711403a83ab974bfff970f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6206452459763225384, guid: 53e892922d711403a83ab974bfff970f,
         type: 3}
       propertyPath: RevPoint1
       value: 
       objectReference: {fileID: 606415224}
-    - target: {fileID: 4799224020969412777, guid: 53e892922d711403a83ab974bfff970f,
+    - target: {fileID: 9143196549134591880, guid: 53e892922d711403a83ab974bfff970f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4799224019640429268, guid: 53e892922d711403a83ab974bfff970f,
         type: 3}
@@ -13185,11 +13191,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6206452461340343531, guid: 53e892922d711403a83ab974bfff970f,
-        type: 3}
-      propertyPath: m_Radius
-      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4799224019593883535, guid: 53e892922d711403a83ab974bfff970f, type: 3}
@@ -13701,17 +13702,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerVRController
       objectReference: {fileID: 0}
-    - target: {fileID: 4799224019593883535, guid: 53e892922d711403a83ab974bfff970f,
+    - target: {fileID: 4799224019593883533, guid: 53e892922d711403a83ab974bfff970f,
         type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 21e9745cf48e74e1eab9f3f90a3b882a, type: 3}
-    - target: {fileID: 4799224019593883535, guid: 53e892922d711403a83ab974bfff970f,
-        type: 3}
-      propertyPath: OutputAudioMixerGroup
-      value: 
-      objectReference: {fileID: 243089322867064750, guid: ca71259be6348485abbe393157796cb8,
-        type: 2}
+      propertyPath: m_TargetEye
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6206629702284975947, guid: 53e892922d711403a83ab974bfff970f,
         type: 3}
       propertyPath: m_IsActive
@@ -13721,11 +13716,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlayerVR Im3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4799224019593883533, guid: 53e892922d711403a83ab974bfff970f,
-        type: 3}
-      propertyPath: m_TargetEye
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8504744065300173585, guid: 53e892922d711403a83ab974bfff970f,
         type: 3}
@@ -13802,6 +13792,17 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4799224019593883535, guid: 53e892922d711403a83ab974bfff970f,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 21e9745cf48e74e1eab9f3f90a3b882a, type: 3}
+    - target: {fileID: 4799224019593883535, guid: 53e892922d711403a83ab974bfff970f,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 243089322867064750, guid: ca71259be6348485abbe393157796cb8,
+        type: 2}
     - target: {fileID: 6206452459763225383, guid: 53e892922d711403a83ab974bfff970f,
         type: 3}
       propertyPath: OutputAudioMixerGroup
@@ -13878,11 +13879,6 @@ PrefabInstance:
       propertyPath: NonePlayer
       value: 
       objectReference: {fileID: 1739497332}
-    - target: {fileID: 9143196549134591880, guid: 53e892922d711403a83ab974bfff970f,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6210725189373849733, guid: 53e892922d711403a83ab974bfff970f,
         type: 3}
       propertyPath: m_RootOrder
@@ -13908,15 +13904,25 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4799224020969412777, guid: 53e892922d711403a83ab974bfff970f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206452461340343531, guid: 53e892922d711403a83ab974bfff970f,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 6206452459763225384, guid: 53e892922d711403a83ab974bfff970f,
         type: 3}
       propertyPath: RevPoint1
       value: 
       objectReference: {fileID: 606415224}
-    - target: {fileID: 4799224020969412777, guid: 53e892922d711403a83ab974bfff970f,
+    - target: {fileID: 9143196549134591880, guid: 53e892922d711403a83ab974bfff970f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4799224019640429268, guid: 53e892922d711403a83ab974bfff970f,
         type: 3}
@@ -13927,11 +13933,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6206452461340343531, guid: 53e892922d711403a83ab974bfff970f,
-        type: 3}
-      propertyPath: m_Radius
-      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53e892922d711403a83ab974bfff970f, type: 3}
@@ -14056,7 +14057,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2015799866}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 243537417603624530, guid: ca71259be6348485abbe393157796cb8,
     type: 2}
@@ -14757,7 +14758,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u305D\u306E\u58F0\u306F\u5E2B\u59B9\u304B\uFF01\uFF1F\n\u7121\u4E8B\u304B\uFF01\uFF1F"
+  m_Text: "\u305D\u306E\u58F0\u306F\u7FA9\u59B9\u304B\uFF01\uFF1F\n\u7121\u4E8B\u304B\uFF01\uFF1F"
 --- !u!222 &2059314667
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15266,7 +15267,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u3042\u3093\u305F\u306E\u76F8\u68D2\n\u3053\u306E\u5148\u306B\u3044\u308B\u307F\u305F\u3044\u3060\u3051\u3069\n\u5468\u308A\u306E\u69D8\u5B50\u304C\u5909\u306A\u306E"
+  m_Text: "\u3042\u3093\u305F\u306E\u7FA9\u59B9\u3061\u3083\u3093\n\u3053\u306E\u5148\u306B\u3044\u308B\u307F\u305F\u3044\u3060\u3051\u3069\n\u5468\u308A\u306E\u69D8\u5B50\u304C\u5909\u306A\u306E"
 --- !u!222 &2122739741
 CanvasRenderer:
   m_ObjectHideFlags: 0

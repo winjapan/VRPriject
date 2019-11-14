@@ -9,7 +9,7 @@ public class Stage2Event : MonoBehaviour
     public Text Intro1;
     public Text Intro2;
     public Text Intro3;
-    public Text IntroEx;
+    //public Text IntroEx;
     public Image IntroIm;
 
     public float introTime;
@@ -59,7 +59,7 @@ public class Stage2Event : MonoBehaviour
     void FirstCount()
     {
         Intro1.gameObject.SetActive(true);
-        IntroEx.gameObject.SetActive(true);
+        //IntroEx.gameObject.SetActive(true);
         PlayerCan.gameObject.SetActive(false);
         IntroIm.gameObject.SetActive(true);
         Tunning.SetActive(false);
@@ -69,7 +69,7 @@ public class Stage2Event : MonoBehaviour
     {
         Intro2.gameObject.SetActive(true);
         Intro1.gameObject.SetActive(false);
-        IntroEx.gameObject.SetActive(false);
+        //IntroEx.gameObject.SetActive(false);
     }
 
     void FinishIntroduction()

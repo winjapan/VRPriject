@@ -30,6 +30,8 @@ public class ClearEventAllay : MonoBehaviour
     public GameObject Player3;
     public GameObject EventPlayer4;
     public GameObject Player5;
+
+    public AudioSource ive;
     // Start is called before the first frame update
     void Start()
     {
@@ -47,7 +49,12 @@ public class ClearEventAllay : MonoBehaviour
         }
         allayTime -= Time.deltaTime;
 
-        if (allayTime < 58)
+        if (allayTime < 59)
+        {
+            ive.enabled = false;
+        }
+
+        if (allayTime < 56)
         {
             Player3.SetActive(false);
             EventPlayer4.SetActive(true);
@@ -57,7 +64,7 @@ public class ClearEventAllay : MonoBehaviour
         if (allayTime < 55)
         {
             ClearIm.gameObject.SetActive(true);
-
+            GameObject.Find("ClearBGM").GetComponent<AudioSource>().enabled = true;
         }
 
         if (allayTime < 50)

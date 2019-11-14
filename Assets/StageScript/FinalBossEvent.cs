@@ -31,6 +31,7 @@ public class FinalBossEvent : MonoBehaviour
     public GameObject Player4;
     public GameObject EventPlayer3;
     public GameObject Player3;
+    public AudioSource Playeraudio;
     // Start is called before the first frame update
     void Awake()
     {
@@ -133,8 +134,9 @@ public class FinalBossEvent : MonoBehaviour
         PlayerCan.gameObject.SetActive(true);
         EventPlayer3.SetActive(false);
         Player3.SetActive(true);
-        GameObject.Find("LastBoss").GetComponent<WizardAttack>().enabled = false;
-        GameObject.Find("BossBGM").GetComponent<AudioSource>().enabled = true;
+        GameObject.Find("LastBoss").GetComponent<WizardAttack>().enabled = true;
+      
+        Playeraudio.enabled = true;
         this.enabled = false;
        
     }

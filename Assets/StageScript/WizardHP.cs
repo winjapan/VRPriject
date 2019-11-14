@@ -105,7 +105,7 @@ public class WizardHP : MonoBehaviour
         this.gameObject.SetActive(false);
         EnemyAttack.gameObject.SetActive(false);
         Last.gameObject.SetActive(false);
-        GameObject.Find("ClearBGM").GetComponent<AudioSource>().enabled = true;
+ 
         playerSouce.enabled = false;
         IvcSouce.enabled = false;
 

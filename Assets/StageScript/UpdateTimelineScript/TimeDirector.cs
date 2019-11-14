@@ -158,8 +158,9 @@ public class TimeDirector : MonoBehaviour
             PlayerIm.gameObject.SetActive(true);
             Player.SetActive(false);
             EventPlayer.SetActive(true);
-         
-           
+            Gob.gameObject.SetActive(false);
+            Pirate.gameObject.SetActive(false);
+
             Timer.text = seconds.ToString();
 
             LadyPirate.SetActive(true);
