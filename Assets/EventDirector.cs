@@ -19,7 +19,7 @@ public class EventDirector : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        allayTime = 65;
+        allayTime = 127;
 
     }
 
@@ -33,18 +33,18 @@ public class EventDirector : MonoBehaviour
         }
         allayTime -= Time.deltaTime;
 
-        if (allayTime < 60)
+        if (allayTime < 120)
         {
             First();
         }
 
-        if (allayTime < 50)
+        if (allayTime < 100)
         {
             Second();
 
         }
 
-        if (allayTime < 40)
+        if (allayTime < 80)
         {
 
            
@@ -52,16 +52,16 @@ public class EventDirector : MonoBehaviour
           
         }
 
-        if (allayTime < 30)
+        if (allayTime < 60)
         {
             Forth();
         }
 
-        if (allayTime < 20)
+        if (allayTime < 40)
         {
             Fifth();
         }
-        if (allayTime < 10)
+        if (allayTime < 20)
         {
             Thankyou();
         }

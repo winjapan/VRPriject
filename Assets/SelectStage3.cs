@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SelectStage1 : MonoBehaviour
+public class SelectStage3 : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -16,8 +16,9 @@ public class SelectStage1 : MonoBehaviour
     {
         
     }
+
     public void OnButtonClicked()
     {
-        SceneManager.LoadScene("Stage1Scene");
+        SceneManager.LoadScene("Stage3Scene");
     }
 }
