@@ -24,7 +24,7 @@ public class LaserGenelate : MonoBehaviour
 
         if (laserCount % 100 == 0)
         {
-            var bulletF = Instantiate(LaserEffect, transform.position = new Vector3(PosX, PosY, PosZ), Quaternion.identity);
+            var bulletF = Instantiate(LaserEffect, transform.position, Quaternion.identity);
 
 
         }

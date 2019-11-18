@@ -75,7 +75,7 @@ public class LadyPirateHP : MonoBehaviour
         }
 
         //キックダメージ
-        if (hit.gameObject.tag == "Kick")
+        if (hit.gameObject.tag == "LKick")
         {
 
             lpHP -= playerKATK;

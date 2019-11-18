@@ -24,7 +24,7 @@ public class MagicGanelate : MonoBehaviour
 
         if (mgCount % 100 == 0)
         {
-            var bulletF = Instantiate(MgEffect, transform.position = new Vector3(PosX, PosY, PosZ), Quaternion.identity);
+            var bulletF = Instantiate(MgEffect, transform.position, Quaternion.identity);
 
 
         }

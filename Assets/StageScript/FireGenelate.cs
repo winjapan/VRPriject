@@ -24,7 +24,7 @@ public class FireGenelate : MonoBehaviour
 
         if (FireCount % 100 == 0)
         {
-            var bulletF = Instantiate(BulletMagic, transform.position = new Vector3(PosX, PosY, PosZ), Quaternion.identity);
+            var bulletF = Instantiate(BulletMagic, transform.position,Quaternion.identity);
 
            
         }

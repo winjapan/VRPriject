@@ -24,7 +24,7 @@ public class ExpoldeGenelator : MonoBehaviour
 
         if (exCount % 100 == 0)
         {
-            var bulletF = Instantiate(ExEffect, transform.position = new Vector3(PosX,PosY,PosZ), Quaternion.identity);
+            var bulletF = Instantiate(ExEffect, transform.position, Quaternion.identity);
 
 
         }

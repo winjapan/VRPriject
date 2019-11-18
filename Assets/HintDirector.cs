@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
-public class RetuneStart : MonoBehaviour
+public class HintDirector : MonoBehaviour
 {
-
+    public Canvas Dummy;
+    public Canvas Hint;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,8 +19,9 @@ public class RetuneStart : MonoBehaviour
         
     }
 
-    public void OnButtonClicked()
+    public void OnButtonClieked()
     {
-        SceneManager.LoadScene("StartSceene");
+        Dummy.gameObject.SetActive(false);
+        Hint.gameObject.SetActive(true);
     }
 }

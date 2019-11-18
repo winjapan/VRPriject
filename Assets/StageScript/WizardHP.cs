@@ -13,20 +13,11 @@ public class WizardHP : MonoBehaviour
     public GameObject EnemyAttack;
     public GameObject Bridge;
     public GameObject BossBGM;
-
     public int wzHP;
-    public int playerRPATK = 20;
-    public int playerLPATK = 25;
-    public int playerKATK = 30;
-    public int playerDBATK = 30;
-    public int tornadoATK = 10;
-    public int playerIVCATK = 30;
-
-    public int aATK = 10;
-
-
+    public int playerRPATK = 10;
+    public int playerLPATK = 10;
+    public int playerIVCATK = 20;
     private Animator animator;
-
     public GameObject ClearPoint;
     public GameObject AllayPoint;
     public GameObject Wall;
@@ -55,7 +46,7 @@ public class WizardHP : MonoBehaviour
 
 
             wzHP -= playerRPATK;
-            LastBossFill.fillAmount -= 0.07f;
+            LastBossFill.fillAmount -= 0.03f;
 
             // StatusFill01.fillAmount -= 0.1f;
             // Debug.Log(pgHP -= playerRPATK);
@@ -68,7 +59,7 @@ public class WizardHP : MonoBehaviour
         if (hit.gameObject.tag == "LPunch")
         {
 
-            LastBossFill.fillAmount -= 0.07f;
+            LastBossFill.fillAmount -= 0.03f;
 
             Debug.Log("Damage");
 
@@ -80,7 +71,7 @@ public class WizardHP : MonoBehaviour
         {
 
             wzHP -= playerIVCATK;
-            LastBossFill.fillAmount -= 0.08f;
+            LastBossFill.fillAmount -= 0.06f;
             animator.SetTrigger("damage_001 0");
 
 

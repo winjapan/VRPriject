@@ -35,6 +35,7 @@ public class TimeDirector : MonoBehaviour
     public Text Count;
     public Text Timer;
     public Text Timer2;
+    public Text Bosstime;
 
     public Text Cousion;
     public Image Say;
@@ -226,7 +227,7 @@ public class TimeDirector : MonoBehaviour
             bossTime -= Time.deltaTime;
             seconds = (int)bossTime;
 
-            Timer.text = seconds.ToString();
+            Bosstime.text = seconds.ToString();
 
             setLady.enabled = true;
 
