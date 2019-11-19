@@ -218,7 +218,7 @@ public class TimeDirector : MonoBehaviour
         {
             Player2.SetActive(true);
             EventPlayer.SetActive(false);
-            //PowerMedicine.SetActive(true);
+            PowerMedicine.SetActive(true);
             BossIm.gameObject.SetActive(false);
             LPSpeak3.gameObject.SetActive(false);
             LPKO.gameObject.SetActive(true);
