@@ -140,6 +140,14 @@ public class PlayerHP : MonoBehaviour
 
     }
 
+    public void OnCollisionStay(Collision other)
+    {
+        if (other.gameObject.tag == "Wall")
+        {
+            Debug.Log(other.gameObject);
+        }
+    }
+
 
     private void OnTriggerEnter(Collider hit)
     {

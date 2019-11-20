@@ -71,6 +71,7 @@ TagManager:
   - BGM
   - SE
   - LKick
+  - Wall
   layers:
   - Default
   - TransparentFX

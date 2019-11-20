@@ -10,7 +10,7 @@ public class RetuneStartScene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Invoke("Retune", 3f);
+        Invoke("Retune", 30f);
 
         
 }
