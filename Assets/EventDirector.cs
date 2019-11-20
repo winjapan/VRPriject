@@ -8,6 +8,7 @@ public class EventDirector : MonoBehaviour
     public float allayTime;
     public Canvas PlayerCan;
 
+    public Text Title;
     public Text Speak1;
     public Text Speak2;
     public Text Speak3;
@@ -15,11 +16,11 @@ public class EventDirector : MonoBehaviour
     public Text Speak5;
   
     public Text Thanks;
-
+    public Material nightSky;
     // Start is called before the first frame update
     void Start()
     {
-        allayTime = 127;
+        allayTime = 147;
 
     }
 
@@ -31,20 +32,25 @@ public class EventDirector : MonoBehaviour
         {
             procount += 1;
         }
+
         allayTime -= Time.deltaTime;
 
-        if (allayTime < 120)
+        if (allayTime <142)
+        {
+            Title.gameObject.SetActive(false);
+        }
+        if (allayTime < 140)
         {
             First();
         }
 
-        if (allayTime < 100)
+        if (allayTime < 120)
         {
             Second();
 
         }
 
-        if (allayTime < 80)
+        if (allayTime < 100)
         {
 
            
@@ -52,21 +58,24 @@ public class EventDirector : MonoBehaviour
           
         }
 
-        if (allayTime < 60)
+        if (allayTime < 80)
         {
             Forth();
         }
 
-        if (allayTime < 40)
+        if (allayTime < 60)
         {
             Fifth();
         }
-        if (allayTime < 20)
+        if (allayTime < 40)
         {
             Thankyou();
         }
 
-
+        if (allayTime < 30)
+        {
+            PlayerCan.gameObject.SetActive(false);
+        }
         if (allayTime < 0)
         {
             allayTime = 0;
@@ -76,6 +85,7 @@ public class EventDirector : MonoBehaviour
         void First()
         {
             Speak1.gameObject.SetActive(true);
+          
         }
 
         void Second()
@@ -103,6 +113,7 @@ public class EventDirector : MonoBehaviour
 
         void Thankyou()
         {
+            RenderSettings.skybox = nightSky;
             Speak5.gameObject.SetActive(false);
             Thanks.gameObject.SetActive(true);
         }
