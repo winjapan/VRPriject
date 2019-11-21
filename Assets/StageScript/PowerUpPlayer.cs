@@ -44,8 +44,11 @@ public class PowerUpPlayer : MonoBehaviour
 
     private Vector3 velocity;
     private float senstivity = 100;
-    public int effectCount = 0;
+    public int effectCount;
     public int effectMax = 1;
+
+    public bool isDeath;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -128,16 +131,20 @@ public class PowerUpPlayer : MonoBehaviour
 
             //StartCoroutine(DeathPunch());
             StartCoroutine(KickAttack());
-            var kickEffect = Instantiate(KickerEffect, transform.position + Vector3.up / 150 * effectKickSpeed * effectKickWidth * effectKickHeight, Quaternion.FromToRotation(Vector3.up, transform.up)) as GameObject;
 
-            effectCount = effectMax;
+           
+
+
+
 
             trigger = true;
 
-
+         
         }
 
+        
         return trigger;
+        
     }
 
 
@@ -152,6 +159,8 @@ public class PowerUpPlayer : MonoBehaviour
     {
 
         this.gameObject.layer = LayerMask.NameToLayer("Kick");
+        var kickEffect = Instantiate(KickerEffect, transform.position + Vector3.up / 150 * effectKickSpeed * effectKickWidth * effectKickHeight, Quaternion.FromToRotation(Vector3.up, transform.up)) as GameObject;
+        isDeath = true;
 
         animator.SetBool("Attack3", true);
         audioSource.PlayOneShot(Attack2);
@@ -164,7 +173,7 @@ public class PowerUpPlayer : MonoBehaviour
         animator.SetBool("FinalAttack", true);
 
         yield return new WaitForSeconds(0.3f);
-
+        isDeath = false;
         animator.SetBool("FinalAttack", false);
         this.gameObject.layer = LayerMask.NameToLayer("Player");
         lowerLLegCol.enabled = false;
