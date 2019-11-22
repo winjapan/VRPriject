@@ -131,9 +131,9 @@ public class PowerUpPlayer : MonoBehaviour
 
             //StartCoroutine(DeathPunch());
             StartCoroutine(KickAttack());
+            DeathEffect.SetActive(true);
 
-           
-
+            Invoke("Off",1.5f);
 
 
 
@@ -147,9 +147,11 @@ public class PowerUpPlayer : MonoBehaviour
         
     }
 
-
-
-        void Death()
+    void Off()
+    {
+        DeathEffect.SetActive(false);
+    }
+    void Death()
         {
            
         }
@@ -159,11 +161,10 @@ public class PowerUpPlayer : MonoBehaviour
     {
 
         this.gameObject.layer = LayerMask.NameToLayer("Kick");
-        var kickEffect = Instantiate(KickerEffect, transform.position + Vector3.up / 150 * effectKickSpeed * effectKickWidth * effectKickHeight, Quaternion.FromToRotation(Vector3.up, transform.up)) as GameObject;
-        isDeath = true;
+        //var kickEffect = Instantiate(KickerEffect, transform.position + Vector3.up / 150 * effectKickSpeed * effectKickWidth * effectKickHeight, Quaternion.FromToRotation(Vector3.up, transform.up)) as GameObject;
 
         animator.SetBool("Attack3", true);
-        audioSource.PlayOneShot(Attack2);
+
         lowerLLegCol.enabled = true;
 
 
@@ -173,11 +174,11 @@ public class PowerUpPlayer : MonoBehaviour
         animator.SetBool("FinalAttack", true);
 
         yield return new WaitForSeconds(0.3f);
-        isDeath = false;
+    
         animator.SetBool("FinalAttack", false);
         this.gameObject.layer = LayerMask.NameToLayer("Player");
         lowerLLegCol.enabled = false;
-
+       
     }
 
         }

@@ -325,6 +325,7 @@ public class PlayerCotroller : MonoBehaviour
         if (other.gameObject.tag == "PowerItem")
         {
             powerUp.enabled = true;
+            KickerEffect.SetActive(true);
         }
 
         if (other.gameObject.tag == "tigerTrap")

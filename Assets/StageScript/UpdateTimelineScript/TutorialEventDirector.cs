@@ -8,6 +8,9 @@ public class TutorialEventDirector : MonoBehaviour
     public float tutorialTime = 500;
     public GameObject Retune;
     public GameObject Quit;
+    public GameObject Md1;
+    public GameObject Md2;
+        
     public Canvas Pouse;
 
     public Text SaySub;
@@ -273,6 +276,7 @@ public class TutorialEventDirector : MonoBehaviour
         {
 
             Say17.gameObject.SetActive(true);
+            Md2.SetActive(true);
         }
 
         if (tutorialTime < 364)
@@ -325,6 +329,7 @@ public class TutorialEventDirector : MonoBehaviour
         if (tutorialTime < 311)
         {
             Say21.gameObject.SetActive(true);
+            Md1.SetActive(true);
         }
 
         if (tutorialTime <309)
